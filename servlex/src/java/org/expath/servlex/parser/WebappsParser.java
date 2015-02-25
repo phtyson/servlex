@@ -198,7 +198,7 @@ public class WebappsParser
     private static final String  WEBAPPS_FILE    = "webapps.xml";
     private static final String  WEBAPPS_PATH    = WEB_PRIVATE_DIR + "/" + WEBAPPS_FILE;
     private static final String  EXPATH_WEB_NS   = "http://expath.org/ns/webapp";
-    private static final String  ROOT_RE         = "^[-a-zA-Z0-9]+$";
+    private static final String  ROOT_RE         = "^[-a-zA-Z0-9]*$";
     private static final Pattern ROOT_PATTERN    = Pattern.compile(ROOT_RE);
 
     private final Source mySource;
